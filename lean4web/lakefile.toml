@@ -1,0 +1,11 @@
+name = "bugeaud105_lean4web"
+version = "0.1.0"
+defaultTargets = ["Bugeaud105Lean4Web"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.1"
+
+[[lean_lib]]
+name = "Bugeaud105Lean4Web"
